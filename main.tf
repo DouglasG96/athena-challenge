@@ -1,6 +1,6 @@
 provider "aws" {
-  region = "us-east-1"
-  profile= "athena"
+  region = var.region
+  profile = var.profile
 }
 
 data "http" "my_public_ip" {
