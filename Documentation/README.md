@@ -146,6 +146,12 @@ Confirm by typing `yes` when prompted.
 
 Enjoy deploying your infrastructure! 🎉
 
-## Infrastructure Diagram
 
-![alt text](Documentation/Athena-challenge.png)
+
+## Future improvements
+
+- Create modules for each component of the infrastructure
+- Create live template for each environment
+- Do more dynamic all the values of the infrastructure
+- Improve IAM Permissions
+- Create a load balancer for more availability
