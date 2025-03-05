@@ -26,7 +26,7 @@ jobs:
           cat <<EOF > terraform.tfvars
           email = "drgb96@gmail.com"
           region = "us-east-1"
-          profile = "athena"
+          profile = "default"
           EOF
 
       - name: Set up Terraform
